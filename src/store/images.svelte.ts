@@ -328,13 +328,14 @@ export const artList = $state({
 		},
 		{
 			image: r2art1,
-			artist: 'Mubarek Seid',
-			link: 'muba_901'
+			artist: 'Yohannes Mitiku',
+			link: 'johnny_mitiku'
 		},
 		{
-			image: r2art2,
-			artist: 'Kirubel Seyoum',
-			link: 'seyoum.kirubel'
+			image: '',
+			artist: '',
+			link: '',
+			position: '2'
 		},
 		{
 			image: null
@@ -343,40 +344,151 @@ export const artList = $state({
 			image: null
 		},
 		// 2 ROW
-
-		// 3 ROW
 		{
 			image: null
 		},
 		{
-			image: r2art3,
-			artist: 'Matthew Muluneh',
-			link: 'mad_art_14'
+			image: null
 		},
 		{
-			image: r2art4,
+			image: '',
+			artist: '',
+			link: '',
+			position: '3'
+		},
+		{
+			image: r2art2,
+			artist: 'Yohannes Tesfu',
+			link: 'johntesfu5'
+		},
+		{
+			image: null
+		},
+		{
+			image: null
+		},
+		// 3 ROW
+
+		{
+			image: r2art6,
 			artist: 'Selamawit Debebe',
 			link: 'sd_selam_art'
 		},
 		{
-			image: r2art5,
-			artist: 'Michael Gebru',
-			link: 'michael_gebru7'
+			image: '',
+			artist: '',
+			link: '',
+			position: '6'
 		},
 		{
-			image: r2art6,
-			artist: 'Yohanan Mengistu',
-			link: 'yoh.an.an'
+			image: '',
+			artist: '',
+			link: '',
+			position: '7'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '8'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '9'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '10'
+		},
+
+		// 4 ROW
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '11'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '12'
+		},
+		{
+			image: r2art3,
+			artist: 'Lidya Yoseph',
+			link: 'lidu_josi'
+		},
+		{
+			image: r2art4,
+			artist: 'Astray Nahusenay',
+			link: 'icebirrd'
+		},
+		{
+			image: r2art5,
+			artist: 'Eyerus Mamush',
+			link: '_judi_67'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '16'
+		},
+		// 5 ROW
+		{
+			image: null
 		},
 		{
 			image: null
 		},
-		// 4 ROW
-
-		// 5 ROW
-
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '17'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '18'
+		},
+		{
+			image: null
+		},
+		{
+			image: null
+		},
 		// 6 ROW
+		{
+			image: null
+		},
+		{
+			image: null
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '19'
+		},
 
+		{
+			image: r2art7,
+			artist: 'Tebibu Solomon',
+			link: 'solson_designs'
+		},
+		{
+			image: null
+		},
+		{
+			image: null
+		},
 		// 7 ROW
 		{
 			image: null
@@ -385,39 +497,179 @@ export const artList = $state({
 			image: null
 		},
 		{
-			image: null
-		},
-		{
-			image: r2art7,
-			artist: 'Estifanos Tewodros',
-			link: 'steve.arts_'
-		},
-		{
-			image: null
-		},
-		{
-			image: null
-		},
-		// 8 ROW
-		{
-			image: null
-		},
-		{
-			image: null
-		},
-		{
-			image: null
-		},
-		{
 			image: r2art8,
-			artist: 'Yeabtsega Getachew',
-			link: 'yabi_7'
+			artist: 'Etsub Mekonnen',
+			link: 'issa_nirvana'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '22'
 		},
 		{
 			image: null
 		},
 		{
 			image: null
+		}
+	],
+
+	third: [
+		// 1 ROW
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '1'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '2'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '3'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '4'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '5'
+		},
+		// 2 ROW
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '6'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '7'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '8'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '9'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '10'
+		},
+		// 3 ROW
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '11'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '12'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '13'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '14'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '15'
+		},
+		// 4 ROW
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '16'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '17'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '18'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '19'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '20'
+		},
+		// 5 ROW
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '21'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '22'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '23'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '24'
+		},
+		{
+			image: '',
+			artist: '',
+			link: '',
+			position: '25'
 		}
 	]
 });
