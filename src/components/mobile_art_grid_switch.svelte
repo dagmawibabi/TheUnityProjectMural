@@ -22,7 +22,7 @@
 		}}
 	/>
 	<div
-		class="flex items-center rounded-full border border-emerald-500 px-4 pb-1 text-lg text-emerald-500"
+		class="flex items-center rounded-full border border-emerald-500 px-4 text-lg text-emerald-500"
 	>
 		{sharedState.rounds[sharedState.chosenArtGrid - 1]['name']}
 	</div>
