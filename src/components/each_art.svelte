@@ -7,9 +7,9 @@
 <AlertDialog.Root>
 	<div
 		class={size == 'XL'
-			? 'group relative h-[60px] w-[60px] overflow-clip transition-all hover:scale-150 hover:rounded-xl md:h-[250px] md:w-[250px] lg:h-[250px] lg:w-[250px] xl:h-[250px] xl:w-[250px] 2xl:h-[250px] 2xl:w-[250px]'
+			? 'group relative h-[65px] w-[65px] overflow-clip transition-all hover:scale-150 hover:rounded-xl md:h-[250px] md:w-[250px] lg:h-[250px] lg:w-[250px] xl:h-[250px] xl:w-[250px] 2xl:h-[250px] 2xl:w-[250px]'
 			: size == 'L'
-				? 'group relative h-[60px] w-[60px] overflow-clip transition-all hover:scale-150 hover:rounded-xl md:h-[200px] md:w-[200px] lg:h-[200px] lg:w-[200px]  xl:h-[200px] xl:w-[200px] 2xl:h-[200px] 2xl:w-[200px]'
+				? 'group relative h-[55px] w-[55px] overflow-clip transition-all hover:scale-150 hover:rounded-xl md:h-[200px] md:w-[200px] lg:h-[200px] lg:w-[200px]  xl:h-[200px] xl:w-[200px] 2xl:h-[200px] 2xl:w-[200px]'
 				: size == 'M'
 					? 'group relative h-[60px] w-[60px] overflow-clip transition-all hover:scale-150 hover:rounded-xl md:h-[150px] md:w-[150px] lg:h-[150px] lg:w-[150px] xl:h-[150px] xl:w-[150px] 2xl:h-[150px] 2xl:w-[150px]'
 					: size == 'S'

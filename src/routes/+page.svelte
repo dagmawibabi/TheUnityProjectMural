@@ -17,7 +17,7 @@
 		<Header />
 
 		<!-- ROUNDS -->
-		<Rounds />
+		<!-- <Rounds /> -->
 
 		<!-- Visitor Count & SIZE CONTROL -->
 		<ControlsAndInfo />

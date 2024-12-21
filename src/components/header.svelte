@@ -1,5 +1,5 @@
 <div
-	class="w-fill mx-auto px-2 pb-10
+	class="w-fill mx-auto px-2 pb-16
 pt-6 md:w-[60%] md:pt-10 lg:w-[60%] lg:pt-10 xl:w-[60%] xl:pt-10 2xl:w-[60%] 2xl:pt-10
 "
 >
