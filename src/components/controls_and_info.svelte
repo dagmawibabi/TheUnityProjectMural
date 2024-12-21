@@ -25,7 +25,7 @@
 <div class="grid w-full justify-center gap-x-4 gap-y-2 md:flex lg:flex xl:flex 2xl:flex">
 	<!-- Art Count -->
 	<div
-		class="flex items-center rounded-full border border-emerald-800 px-5 text-xs font-semibold uppercase text-emerald-600"
+		class="rounded-full border border-emerald-800 px-5 text-center text-sm font-semibold uppercase text-emerald-600"
 	>
 		This round has
 		<span class="px-1 text-emerald-500">
@@ -55,7 +55,7 @@
 
 	<!-- Visitor Count -->
 	<div
-		class="flex items-center rounded-full border border-emerald-800 px-5 text-xs font-semibold uppercase text-emerald-600"
+		class="rounded-full border border-emerald-800 px-5 text-center text-sm font-semibold uppercase text-emerald-600"
 	>
 		<span class="pr-1 text-emerald-500">{visitorCount}</span> art lovers have been here
 	</div>
