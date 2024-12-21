@@ -16,12 +16,20 @@
 	];
 </script>
 
-<div class="mx-auto w-[90%] pb-10 pt-36 text-white md:w-[60%] lg:w-[60%] xl:w-[60%] 2xl:w-[60%]">
-	<div class="pb-8 text-center">
-		<span class="mx-auto text-2xl font-bold text-emerald-500"> Contribute </span>
+<div
+	class="mx-auto w-full px-2 pb-10 pt-36 text-white md:w-[60%] lg:w-[60%] xl:w-[60%] 2xl:w-[60%]"
+>
+	<div class="pb-4 text-center md:pb-8 lg:pb-8 xl:pb-8 2xl:pb-8">
+		<span
+			class="mx-auto text-2xl font-bold text-emerald-500 md:text-4xl lg:text-4xl xl:text-4xl 2xl:text-4xl"
+		>
+			Contribute
+		</span>
 	</div>
 
-	<div class="text-center font-mono italic text-zinc-400">
+	<div
+		class="text-center font-mono text-sm italic text-zinc-400 md:text-base lg:text-base xl:text-base 2xl:text-base"
+	>
 		<p>
 			If you are a digital artist wanting to contribute to this collection of connected art pieces,
 			follow the steps below accordingly and your art will be hosted here in no time!

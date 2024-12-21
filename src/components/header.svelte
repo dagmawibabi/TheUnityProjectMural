@@ -1,12 +1,12 @@
 <div
-	class="mx-auto w-[90%]
-pb-10 md:w-[60%] lg:w-[60%] xl:w-[60%] 2xl:w-[60%]
+	class="w-fill mx-auto px-2 pb-10
+pt-6 md:w-[60%] md:pt-10 lg:w-[60%] lg:pt-10 xl:w-[60%] xl:pt-10 2xl:w-[60%] 2xl:pt-10
 "
 >
 	<div class="pb-4 text-center md:pb-8 lg:pb-8 xl:pb-8 2xl:pb-8">
 		<span
 			class="text-2xl font-bold text-emerald-500
-		md:text-5xl lg:text-5xl xl:text-5xl 2xl:text-5xl
+		 md:text-5xl lg:text-5xl xl:text-5xl 2xl:text-5xl
 		"
 		>
 			The Unity Project Mural
