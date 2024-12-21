@@ -5,6 +5,8 @@
 	import ControlsAndInfo from '../components/controls_and_info.svelte';
 	import Footer from '../components/footer.svelte';
 	import Contribute from '../components/contribute.svelte';
+	import Contact from '../components/contact.svelte';
+	import { Quote } from 'lucide-svelte';
 </script>
 
 <div
@@ -25,6 +27,22 @@
 
 		<!-- CONTRIBUTE -->
 		<Contribute />
+
+		<!-- CONTACT -->
+		<Contact />
+
+		<!-- QUOTE -->
+
+		<div class="mx-auto flex w-[60%] justify-center py-36">
+			<div>
+				<Quote class="mx-auto font-mono text-lg font-bold text-emerald-500" />
+				<div class="pt-5">
+					<span class="font-mono text-lg font-bold italic text-emerald-500">
+						All these art pieces but you're the one who belongs in a museum.
+					</span>
+				</div>
+			</div>
+		</div>
 
 		<!-- Footer -->
 		<Footer />

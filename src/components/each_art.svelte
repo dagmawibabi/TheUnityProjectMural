@@ -7,14 +7,14 @@
 <AlertDialog.Root>
 	<div
 		class={size == 'XL'
-			? 'group relative h-[250px] w-[250px] overflow-clip transition-all hover:scale-150 hover:rounded-xl'
+			? 'group relative h-[60px] w-[60px] overflow-clip transition-all hover:scale-150 hover:rounded-xl md:h-[250px] md:w-[250px] lg:h-[250px] lg:w-[250px] xl:h-[250px] xl:w-[250px] 2xl:h-[250px] 2xl:w-[250px]'
 			: size == 'L'
-				? 'group relative h-[200px] w-[200px] overflow-clip transition-all hover:scale-150 hover:rounded-xl'
+				? 'group relative h-[60px] w-[60px] overflow-clip transition-all hover:scale-150 hover:rounded-xl md:h-[200px] md:w-[200px] lg:h-[200px] lg:w-[200px]  xl:h-[200px] xl:w-[200px] 2xl:h-[200px] 2xl:w-[200px]'
 				: size == 'M'
-					? 'group relative h-[150px] w-[150px] overflow-clip transition-all hover:scale-150 hover:rounded-xl'
+					? 'group relative h-[60px] w-[60px] overflow-clip transition-all hover:scale-150 hover:rounded-xl md:h-[150px] md:w-[150px] lg:h-[150px] lg:w-[150px] xl:h-[150px] xl:w-[150px] 2xl:h-[150px] 2xl:w-[150px]'
 					: size == 'S'
-						? 'group relative h-[100px] w-[100px] overflow-clip transition-all hover:scale-150 hover:rounded-xl'
-						: 'group relative h-[50px] w-[50px]'}
+						? 'group relative h-[60px] w-[60px] overflow-clip transition-all hover:scale-150 hover:rounded-xl md:h-[100px] md:w-[100px] lg:h-[100px] lg:w-[100px] xl:h-[100px] xl:w-[100px] 2xl:h-[100px] 2xl:w-[100px]'
+						: 'group relative h-[60px] w-[60px] md:h-[50px] md:w-[50px] lg:h-[50px] lg:w-[50px] xl:h-[50px] xl:w-[50px] 2xl:h-[50px] 2xl:w-[50px] '}
 	>
 		{#if art.image == null}
 			<!-- EMPTY -->

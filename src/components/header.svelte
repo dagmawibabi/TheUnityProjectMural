@@ -1,6 +1,16 @@
-<div class="mx-auto w-[60%] pb-10">
+<div
+	class="mx-auto w-[90%]
+pb-10 md:w-[60%] lg:w-[60%] xl:w-[60%] 2xl:w-[60%]
+"
+>
 	<div class="pb-8 text-center">
-		<span class="text-5xl font-bold text-emerald-500"> The Unity Project Mural </span>
+		<span
+			class="text-xl font-bold text-emerald-500
+		md:text-5xl lg:text-5xl xl:text-5xl 2xl:text-5xl
+		"
+		>
+			The Unity Project Mural
+		</span>
 	</div>
 	<p class="text-center font-mono italic text-zinc-400">
 		The Unity Project Mural is a diverse and collaborative art initiative, inviting people to

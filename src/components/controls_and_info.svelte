@@ -22,7 +22,7 @@
 	getVisitorCount();
 </script>
 
-<div class="flex w-full justify-center gap-x-4">
+<div class="grid w-full justify-center gap-x-4 gap-y-2 md:flex lg:flex xl:flex 2xl:flex">
 	<!-- Art Count -->
 	<div
 		class="flex items-center rounded-full border border-emerald-800 px-5 text-xs font-semibold uppercase text-emerald-600"
@@ -38,7 +38,7 @@
 	</div>
 
 	<!-- SIZE CONTROL -->
-	<div class="flex items-center gap-x-3 text-xs text-zinc-600">
+	<div class="hidden items-center gap-x-3 text-xs text-zinc-600 md:flex lg:flex xl:flex 2xl:flex">
 		{#each sharedState.sizes as size}
 			<!-- svelte-ignore a11y_click_events_have_key_events -->
 			<!-- svelte-ignore a11y_no_static_element_interactions -->
