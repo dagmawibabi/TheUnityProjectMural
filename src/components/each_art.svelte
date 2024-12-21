@@ -33,9 +33,11 @@
 				<img src={art.image} alt={art.artist} class="object-fit h-full w-full" />
 			</AlertDialog.Trigger>
 
-			<AlertDialog.Content class="w-[700px] border-none bg-zinc-950">
+			<AlertDialog.Content
+				class="w-screen border-none bg-zinc-950 md:w-[700px] lg:w-[700px] xl:w-[700px] 2xl:w-[700px]"
+			>
 				<AlertDialogTitle class="text-emerald-500">
-					{art.artist} — @{art.link}
+					By {art.artist} — @{art.link}
 				</AlertDialogTitle>
 				<AlertDialog.Header class="">
 					<AlertDialog.Description>
@@ -47,7 +49,7 @@
 					<AlertDialog.Cancel class="border-none bg-zinc-900 text-white">Cancel</AlertDialog.Cancel>
 					<a href="https://www.instagram.com/{art.link}" target="_blank" rel="noopener">
 						<AlertDialog.Action
-							class="border border-emerald-700 text-emerald-500 hover:bg-emerald-500 hover:text-black"
+							class="w-fit border border-emerald-700 text-emerald-500 hover:bg-emerald-500 hover:text-black"
 						>
 							Checkout The Artist
 						</AlertDialog.Action>
