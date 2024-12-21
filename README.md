@@ -1,38 +1,24 @@
-# sv
+# The Unity Project Mural
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+![logo]("src/assets/icons/unity.png")
 
-## Creating a project
+A diverse and collaborative art initiative, inviting people to contribute their artistic expressions in a way that interlinks with surrounding artworks. This interconnectedness narrates the story of human relationships, illustrating how we are all intertwined and connected through various facets of life.
 
-If you're seeing this, you've probably already done this step. Congrats!
+- A collaborative art initiative
+- Interconnected artworks
+- A story of human relationships
+- A showcase of diverse art styles and concepts
 
-```bash
-# create a new project in the current directory
-npx sv create
+## How to Reserve a Spot
 
-# create a new project in my-app
-npx sv create my-app
-```
+1.  Join the Telegram group: <https://t.me/TheUnityProjectMuralGroup>
+2.  Choose a spot
+3.  Reserve the spot by texting the group in the following format: John Doe @InstagramUsername Spot:12 Time:1 Day
+4.  Create your art piece
+5.  Send the uncompressed high-quality file to the group
 
-## Developing
+## Art Piece Guidelines
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- The dimension for your drawing should be any square with a minimum of 500x500 pixels.
+- Draw your art piece in a way it connects to the arts beside the spot you chose while also drawing in a way that lets others continue off from your drawing on all sides.
+- When you finish drawing, send the uncompressed high-quality file in the group.

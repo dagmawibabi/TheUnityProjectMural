@@ -39,11 +39,7 @@
 				</AlertDialogTitle>
 				<AlertDialog.Header class="">
 					<AlertDialog.Description>
-						<img
-							src={art.image}
-							alt={art.artist}
-							class="object-fit h-full w-full transition-all hover:scale-[2]"
-						/>
+						<img src={art.image} alt={art.artist} class="object-fit h-full w-full" />
 					</AlertDialog.Description>
 				</AlertDialog.Header>
 
@@ -59,7 +55,9 @@
 				</AlertDialog.Footer>
 			</AlertDialog.Content>
 
-			<div class="absolute bottom-0 left-0 right-0 z-50 transition-all">
+			<div
+				class="bottom-0 left-0 right-0 z-50 hidden transition-all md:absolute lg:absolute xl:absolute 2xl:absolute"
+			>
 				<div
 					class={size == 'XL' || size == 'L' || size == 'M'
 						? 'mx-auto hidden w-fit rounded-full border border-zinc-600 bg-black px-3 py-1 text-xs text-white group-hover:block group-hover:scale-75'
