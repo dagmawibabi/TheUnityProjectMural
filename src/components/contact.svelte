@@ -24,7 +24,7 @@
 		<a href="https://linkedin.com/in/dagmawibabi" target="_blank" rel="noreferrer">
 			<Linkedin class="cursor-pointer text-emerald-500 hover:scale-125" size={28} />
 		</a>
-		<a href="https://github.com/dagmawibabi/art" target="_blank" rel="noreferrer">
+		<a href="https://github.com/dagmawibabi/TheUnityProjectMural" target="_blank" rel="noreferrer">
 			<Github class="cursor-pointer text-emerald-500 hover:scale-125" size={28} />
 		</a>
 		<a href="mailto:1babidagi@gmail.com" target="_blank" rel="noreferrer">
