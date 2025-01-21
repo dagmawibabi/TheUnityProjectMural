@@ -15,12 +15,17 @@
 		let day = String(currentDate.getDate()).padStart(2, '0');
 
 		const formattedDate = `${year}-${month}-${day}`;
-		let visitorCountResult = await axios({
-			method: 'get',
-			url: `https://api.loglib.io/v1/insight?apiKey=${LOGLIB_API_KEY}&startDate=2023-08-10&endDate=${formattedDate}&timeZone=Africa/Addis_Ababa`,
-			withCredentials: false
-		});
-		visitorCount = 11038 + visitorCountResult.data.insight.totalPageViews.current;
+		let visitorCountResult;
+		try {
+			visitorCountResult = await axios({
+				method: 'get',
+				url: `https://api.loglib.io/v1/insight?apiKey=${LOGLIB_API_KEY}&startDate=2023-08-10&endDate=${formattedDate}&timeZone=Africa/Addis_Ababa`,
+				withCredentials: false
+			});
+			visitorCount = 11038 + visitorCountResult.data.insight.totalPageViews.current;
+		} catch (error) {
+			visitorCountResult = 11038;
+		}
 	}
 	getVisitorCount();
 </script>
