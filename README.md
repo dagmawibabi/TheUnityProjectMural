@@ -1,6 +1,6 @@
 # The Unity Project Mural
 
-![logo]("https://github.com/dagmawibabi/art/blob/main/src/lib/assets/icons/unity.png")
+![logo](./src/lib/assets/icons/unity.png)
 
 A diverse and collaborative art initiative, inviting people to contribute their artistic expressions in a way that interlinks with surrounding artworks. This interconnectedness narrates the story of human relationships, illustrating how we are all intertwined and connected through various facets of life.
 
