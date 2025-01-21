@@ -9,6 +9,10 @@ The Unity Project Mural is the biggest and most diverse collaborative digital ar
 - A story of human relationships
 - A showcase of diverse art styles and concepts
 
+## Murals
+
+The first mural launched in 2023, showcased 50 gorgeous art pieces from some of the best and well known Ethiopian digital artists. The second mural, named the Christian Cross, was running in 2024 with 22 breathtaking spiritual art pieces. With slots still open for you to contribute to. The mural for 2025 is now coming soon with a brand new canvas to showcase 25 of your epic collaborative art pieces. Join [our group](https://t.me/TheUnityProjectMuralGroup) to get notified when the theme drops.
+
 ## How to Reserve a Spot
 
 1.  Join the Telegram group: <https://t.me/TheUnityProjectMuralGroup>
