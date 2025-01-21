@@ -27,4 +27,4 @@ The first mural launched in 2023, showcased 50 gorgeous art pieces from some of 
 - Draw your art piece in a way it connects to the arts beside the spot you chose while also drawing in a way that lets others continue off from your drawing on all sides.
 - When you finish drawing, send the uncompressed high-quality file in the group.
 
-## "All these art pieces but you're the one who belongs in a museum."
+## All these art pieces but you're the one who belongs in a museum
