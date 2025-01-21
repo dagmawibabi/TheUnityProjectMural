@@ -1,8 +1,8 @@
-# The Unity Project Mural
+# [The Unity Project Mural](https://www.unitymural.art)
 
 ![logo](./src/lib/assets/header.jpg)
 
-A diverse and collaborative art initiative, inviting people to contribute their artistic expressions in a way that interlinks with surrounding artworks. This interconnectedness narrates the story of human relationships, illustrating how we are all intertwined and connected through various facets of life.
+The Unity Project Mural is the biggest and most diverse collaborative digital art mural in the world inviting people to contribute their artistic expressions in a way that interlinks with surrounding artworks. This interconnectedness narrates the story of human relationships, illustrating how we are all intertwined and connected through various facets of life.
 
 - A collaborative art initiative
 - Interconnected artworks
