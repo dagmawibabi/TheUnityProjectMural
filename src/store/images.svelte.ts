@@ -451,7 +451,7 @@ export const artList = $state({
 		{
 			image: r2art9,
 			artist: 'Mahder Gebru',
-			link: '@mery.21st'
+			link: 'mery.21st'
 		},
 		{
 			image: '',
@@ -475,7 +475,7 @@ export const artList = $state({
 		{
 			image: r2art10,
 			artist: 'Mahder Gebru',
-			link: '@mery.21st'
+			link: 'mery.21st'
 		},
 		{
 			image: r2art7,
