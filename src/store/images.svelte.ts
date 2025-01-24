@@ -58,6 +58,8 @@ import r2art5 from '$lib/assets/rounds/round2/5.png';
 import r2art6 from '$lib/assets/rounds/round2/6.png';
 import r2art7 from '$lib/assets/rounds/round2/7.png';
 import r2art8 from '$lib/assets/rounds/round2/8.png';
+import r2art9 from '$lib/assets/rounds/round2/9.png';
+import r2art10 from '$lib/assets/rounds/round2/10.png';
 
 export const artList = $state({
 	first: [
@@ -447,10 +449,9 @@ export const artList = $state({
 			image: null
 		},
 		{
-			image: '',
-			artist: '',
-			link: '',
-			position: '17'
+			image: r2art9,
+			artist: 'Mahder Gebru',
+			link: '@mery.21st'
 		},
 		{
 			image: '',
@@ -472,12 +473,10 @@ export const artList = $state({
 			image: null
 		},
 		{
-			image: '',
-			artist: '',
-			link: '',
-			position: '19'
+			image: r2art10,
+			artist: 'Mahder Gebru',
+			link: '@mery.21st'
 		},
-
 		{
 			image: r2art7,
 			artist: 'Tebibu Solomon',
