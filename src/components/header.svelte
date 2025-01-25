@@ -1,7 +1,11 @@
+<script lang="ts">
+	let { showPragraph } = $props();
+</script>
+
 <div
-	class="w-fill mx-auto px-2 pb-16
-pt-6 md:w-[60%] md:pt-10 lg:w-[60%] lg:pt-10 xl:w-[60%] xl:pt-10 2xl:w-[60%] 2xl:pt-10
-"
+	class={showPragraph == false
+		? 'w-fill mx-auto px-2 pb-0 pt-6 md:w-[60%] md:pt-10 lg:w-[60%] lg:pb-16 lg:pt-10 xl:w-[60%] xl:pb-16 xl:pt-10 2xl:w-[60%] 2xl:pb-16 2xl:pt-10'
+		: 'w-fill mx-auto px-2 pb-16 pt-6 md:w-[60%] md:pt-10 lg:w-[60%] lg:pt-10 xl:w-[60%] xl:pt-10 2xl:w-[60%] 2xl:pt-10'}
 >
 	<div class="pb-4 text-center md:pb-8 lg:pb-8 xl:pb-8 2xl:pb-8">
 		<a href="/">
@@ -14,8 +18,11 @@ pt-6 md:w-[60%] md:pt-10 lg:w-[60%] lg:pt-10 xl:w-[60%] xl:pt-10 2xl:w-[60%] 2xl
 			</span>
 		</a>
 	</div>
+
 	<p
-		class="text-center font-mono text-sm italic text-zinc-400 md:text-base lg:text-base xl:text-base 2xl:text-base"
+		class={showPragraph == false
+			? 'hidden text-center font-mono text-sm italic text-zinc-400 md:text-base lg:flex lg:text-base xl:flex xl:text-base 2xl:flex 2xl:text-base'
+			: 'text-center font-mono text-sm italic text-zinc-400 md:text-base lg:text-base xl:text-base 2xl:text-base'}
 	>
 		The Unity Project Mural is a diverse and collaborative art initiative, inviting people to
 		contribute their artistic expressions in a way that interlinks with surrounding artworks. This

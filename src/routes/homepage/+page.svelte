@@ -11,7 +11,7 @@
 
 <div class="h-screen w-screen overflow-scroll">
 	<!-- INTRO -->
-	<Header />
+	<Header showPragraph={true} />
 
 	<!-- Visitor Count & SIZE CONTROL -->
 	<ControlsAndInfo />

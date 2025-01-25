@@ -44,7 +44,7 @@
 
 <div class="h-screen w-screen overflow-scroll">
 	<!-- INTRO -->
-	<Header />
+	<Header showPragraph={false} />
 
 	<div class="mx-auto w-full pb-8 text-center lg:w-1/2 xl:w-1/2 2xl:w-1/2">
 		<div
@@ -53,7 +53,7 @@
 			Contributions of
 			<a
 				href="https://www.instagram.com/{artistUsername}"
-				class="border-b border-dashed border-emerald-500 underline-offset-8 hover:underline"
+				class="border-b border-dashed border-emerald-800 underline-offset-8 hover:underline"
 				target="_blank"
 				rel="noopener"
 			>
