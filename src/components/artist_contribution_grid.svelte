@@ -4,7 +4,7 @@
 	let { theme, contributions, artistUsername } = $props();
 </script>
 
-<div class="pb-20">
+<div>
 	<ArtistContributionThemeTitle title={theme} length={contributions.length} />
 	<div
 		class="mx-auto grid w-fit grid-cols-1 grid-rows-none gap-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3"

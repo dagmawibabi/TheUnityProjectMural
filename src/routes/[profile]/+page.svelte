@@ -46,7 +46,7 @@
 	<!-- INTRO -->
 	<Header showPragraph={false} />
 
-	<div class="mx-auto w-full pb-8 text-center lg:w-1/2 xl:w-1/2 2xl:w-1/2">
+	<div class="mx-auto w-full pt-4 text-center lg:w-1/2 lg:pt-0 xl:w-1/2 xl:pt-0 2xl:w-1/2 2xl:pt-0">
 		<div
 			class="mx-auto text-lg font-bold text-emerald-500 md:text-4xl lg:text-4xl xl:text-4xl 2xl:text-4xl"
 		>
@@ -80,32 +80,34 @@
 			</p>
 		</div>
 
-		<!-- First Round  -->
-		{#if firstContributions.length > 0}
-			<ArtistContributionGrid
-				theme="Ethiopian Artists Theme"
-				contributions={firstContributions}
-				{artistUsername}
-			/>
-		{/if}
+		<div class="grid gap-y-5">
+			<!-- First Round  -->
+			{#if firstContributions.length > 0}
+				<ArtistContributionGrid
+					theme="Ethiopian Artists Theme"
+					contributions={firstContributions}
+					{artistUsername}
+				/>
+			{/if}
 
-		<!-- Second Round  -->
-		{#if secondContributions.length > 0}
-			<ArtistContributionGrid
-				theme="Christian Cross Theme"
-				contributions={secondContributions}
-				{artistUsername}
-			/>
-		{/if}
+			<!-- Second Round  -->
+			{#if secondContributions.length > 0}
+				<ArtistContributionGrid
+					theme="Christian Cross Theme"
+					contributions={secondContributions}
+					{artistUsername}
+				/>
+			{/if}
 
-		<!-- Third Round  -->
-		{#if thirdContributions.length > 0}
-			<ArtistContributionGrid
-				theme="Third Theme"
-				contributions={thirdContributions}
-				{artistUsername}
-			/>
-		{/if}
+			<!-- Third Round  -->
+			{#if thirdContributions.length > 0}
+				<ArtistContributionGrid
+					theme="Third Theme"
+					contributions={thirdContributions}
+					{artistUsername}
+				/>
+			{/if}
+		</div>
 	</div>
 
 	<!-- CONTRIBUTE -->
