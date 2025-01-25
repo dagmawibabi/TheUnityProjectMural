@@ -47,6 +47,13 @@
 
 				<AlertDialog.Footer>
 					<AlertDialog.Cancel class="border-none bg-zinc-900 text-white">Cancel</AlertDialog.Cancel>
+					<a href="/{art.link}" target="_blank" rel="noopener">
+						<AlertDialog.Action
+							class="w-full border border-emerald-700 text-emerald-500 hover:bg-emerald-500 hover:text-black"
+						>
+							Artist's Contributions
+						</AlertDialog.Action>
+					</a>
 					<a href="https://www.instagram.com/{art.link}" target="_blank" rel="noopener">
 						<AlertDialog.Action
 							class="w-full border border-emerald-700 text-emerald-500 hover:bg-emerald-500 hover:text-black"
