@@ -41,7 +41,16 @@
 				</AlertDialogTitle>
 				<AlertDialog.Header class="">
 					<AlertDialog.Description>
-						<img src={art.image} alt={art.artist} class="object-fit h-full w-full" />
+						<!-- when double clicked open in a full screen new tab -->
+
+						<!-- svelte-ignore a11y_click_events_have_key_events -->
+						<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
+						<img
+							src={art.image}
+							alt={art.artist}
+							onclick={() => window.open(art.image, '_blank')}
+							class="object-fit h-full w-full"
+						/>
 					</AlertDialog.Description>
 				</AlertDialog.Header>
 
