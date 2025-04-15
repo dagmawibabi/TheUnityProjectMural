@@ -17,7 +17,7 @@ export const sharedState = $state({
 		},
 		{
 			round: 'Round 3',
-			name: 'Coming Soon',
+			name: 'Space',
 			index: 3,
 			defaultSize: 'XL'
 		}

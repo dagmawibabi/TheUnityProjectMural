@@ -1,3 +1,4 @@
+// Round 1
 import art1 from '$lib/assets/rounds/round1/1.png';
 import art2 from '$lib/assets/rounds/round1/2.png';
 import art3 from '$lib/assets/rounds/round1/3.png';
@@ -59,7 +60,22 @@ import r2art6 from '$lib/assets/rounds/round2/6.png';
 import r2art7 from '$lib/assets/rounds/round2/7.png';
 import r2art8 from '$lib/assets/rounds/round2/8.png';
 import r2art9 from '$lib/assets/rounds/round2/9.png';
-import r2art10 from '$lib/assets/rounds/round2/10.png';
+import r2art10 from '$lib/assets/rounds/round2/10.png'; 
+
+// ROUND 3
+import r3art1 from '$lib/assets/rounds/round3/1.png'; 
+import r3art3 from '$lib/assets/rounds/round3/3.png'; 
+import r3art7 from '$lib/assets/rounds/round3/7.png'; 
+import r3art9 from '$lib/assets/rounds/round3/9.png'; 
+import r3art13 from '$lib/assets/rounds/round3/13.png'; 
+import r3art15 from '$lib/assets/rounds/round3/15.png'; 
+
+import r3art21 from '$lib/assets/rounds/round3/21.png'; 
+import r3art22 from '$lib/assets/rounds/round3/22.png'; 
+import r3art23 from '$lib/assets/rounds/round3/23.png'; 
+import r3art24 from '$lib/assets/rounds/round3/24.png'; 
+import r3art25 from '$lib/assets/rounds/round3/25.png'; 
+
 
 export const artList = $state({
 	first: [
@@ -517,10 +533,9 @@ export const artList = $state({
 	third: [
 		// 1 ROW
 		{
-			image: '',
-			artist: '',
-			link: '',
-			position: '1'
+			image: r3art1,
+			artist: 'Hundaol Fekadu',
+			link: 'hundaolcreatives',
 		},
 		{
 			image: '',
@@ -529,10 +544,9 @@ export const artList = $state({
 			position: '2'
 		},
 		{
-			image: '',
-			artist: '',
-			link: '',
-			position: '3'
+			image: r3art3,
+			artist: 'Tsnukal Geremew',
+			link: 'tk_geremew',
 		},
 		{
 			image: '',
@@ -554,10 +568,9 @@ export const artList = $state({
 			position: '6'
 		},
 		{
-			image: '',
-			artist: '',
-			link: '',
-			position: '7'
+			image: r3art7,
+			artist: 'TommyCube',
+			link: 'tommycube2.0',
 		},
 		{
 			image: '',
@@ -566,10 +579,9 @@ export const artList = $state({
 			position: '8'
 		},
 		{
-			image: '',
-			artist: '',
-			link: '',
-			position: '9'
+			image: r3art9,
+			artist: 'Bisrat Ashagre',
+			link: 'bashagre07',
 		},
 		{
 			image: '',
@@ -591,10 +603,9 @@ export const artList = $state({
 			position: '12'
 		},
 		{
-			image: '',
-			artist: '',
-			link: '',
-			position: '13'
+			image: r3art13,
+			artist: 'Mahder Gebru',
+			link: 'mery.21st',
 		},
 		{
 			image: '',
@@ -603,10 +614,9 @@ export const artList = $state({
 			position: '14'
 		},
 		{
-			image: '',
-			artist: '',
-			link: '',
-			position: '15'
+			image: r3art15,
+			artist: 'Daniel Habtamu',
+			link: 'danielhabtamu_',
 		},
 		// 4 ROW
 		{
@@ -641,34 +651,29 @@ export const artList = $state({
 		},
 		// 5 ROW
 		{
-			image: '',
-			artist: '',
-			link: '',
-			position: '21'
+			image: r3art21,
+			artist: 'Bemnet Dereje',
+			link: 'fazed_with_phase',
 		},
 		{
-			image: '',
-			artist: '',
-			link: '',
-			position: '22'
+			image: r3art22,
+			artist: 'Bemnet Dereje',
+			link: 'fazed_with_phase',
 		},
 		{
-			image: '',
-			artist: '',
-			link: '',
-			position: '23'
+			image: r3art23,
+			artist: 'Bemnet Dereje',
+			link: 'fazed_with_phase',
 		},
 		{
-			image: '',
-			artist: '',
-			link: '',
-			position: '24'
+			image: r3art24,
+			artist: 'Bemnet Dereje',
+			link: 'fazed_with_phase',
 		},
 		{
-			image: '',
-			artist: '',
-			link: '',
-			position: '25'
+			image: r3art25,
+			artist: 'Bemnet Dereje',
+			link: 'fazed_with_phase',
 		}
 	]
 });

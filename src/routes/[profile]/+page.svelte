@@ -102,7 +102,7 @@
 			<!-- Third Round  -->
 			{#if thirdContributions.length > 0}
 				<ArtistContributionGrid
-					theme="Third Theme"
+					theme="Space Theme"
 					contributions={thirdContributions}
 					{artistUsername}
 				/>

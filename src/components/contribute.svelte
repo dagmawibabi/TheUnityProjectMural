@@ -5,13 +5,13 @@
 		'Check the group for the pinned messages to see if the spot you chose is reserved or not. If the spot is reserved, pick another spot and recheck.',
 		'If the spot is not reserved, quickly text the group in the following format: John Doe @InstagramUsername Spot:12 Time:1 Day',
 		'Time to complete an art piece should be between a minimum of 6 hours to a maximum of 2 days. If you need more time, please let us know in advance.',
-		"If you don't deliver by the time frame you chose, your spot will be given to someone else. So, please be mindful of the time."
+		"If you don't deliver by the timeframe you chose, your spot will be given to someone else. So, please be mindful of the time."
 	];
 
 	let artPieceGuides = [
 		'The dimension for your drawing should be any square with a minimum of 500x500 pixels.',
 		'Draw your art piece in a way it connects to the arts beside the spot you chose while also drawing in a way that lets others continue off from your drawing on all sides.',
-		'When you finish drawing, send the uncompressed high-quality file in the group.',
+		'When you finish drawing, send the uncompressed and high-quality PNG format in the group.',
 		'The project organizers will then upload your drawing to the website and host it for the world to admire!'
 	];
 </script>
