@@ -67,9 +67,9 @@ import r3art1 from '$lib/assets/rounds/round3/1.png';
 import r3art3 from '$lib/assets/rounds/round3/3.png'; 
 import r3art7 from '$lib/assets/rounds/round3/7.png'; 
 import r3art9 from '$lib/assets/rounds/round3/9.png'; 
+import r3art11 from '$lib/assets/rounds/round3/11.png'; 
 import r3art13 from '$lib/assets/rounds/round3/13.png'; 
 import r3art15 from '$lib/assets/rounds/round3/15.png'; 
-
 import r3art21 from '$lib/assets/rounds/round3/21.png'; 
 import r3art22 from '$lib/assets/rounds/round3/22.png'; 
 import r3art23 from '$lib/assets/rounds/round3/23.png'; 
@@ -591,10 +591,9 @@ export const artList = $state({
 		},
 		// 3 ROW
 		{
-			image: '',
-			artist: '',
-			link: '',
-			position: '11'
+			image: r3art11,
+			artist: 'Meaza Mamaye',
+			link: 'm.zz.y_art',
 		},
 		{
 			image: '',
