@@ -75,7 +75,7 @@
 		<div
 			class="flex items-center justify-center rounded-full border-emerald-800 px-5 font-semibold uppercase text-emerald-600 md:border lg:border xl:border 2xl:border"
 		>
-			<span class="pr-1 text-emerald-500">{visitorCount}</span> art lovers have been here
+			<span class="pr-1 text-emerald-500">{visitorCount == 0 ? '11038' : visitorCount}</span> art lovers have been here
 		</div>
 	</div>
 </div>

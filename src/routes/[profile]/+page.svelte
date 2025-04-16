@@ -4,18 +4,10 @@
 	import Quote from '../../components/quote.svelte';
 	import Footer from '../../components/footer.svelte';
 
-	import AlertDialogTitle from '$lib/components/ui/alert-dialog/alert-dialog-title.svelte';
-	import * as AlertDialog from '$lib/components/ui/alert-dialog/index.js';
-
 	import { page } from '$app/stores';
 	import { artList } from '../../store/images.svelte';
 
-	import EachArt from '../../components/each_art.svelte';
-	import ArtistContributionArt from '../../components/artist_contribution_art.svelte';
-	import ControlsAndInfo from '../../components/controls_and_info.svelte';
-	import ArtGrids from '../../components/art_grids.svelte';
 	import Contribute from '../../components/contribute.svelte';
-	import ArtistContributionThemeTitle from '../../components/artist_contribution_theme_title.svelte';
 	import ArtistContributionGrid from '../../components/artist_contribution_grid.svelte';
 	let artistUsername = $page.url.toString().split('/')[3];
 

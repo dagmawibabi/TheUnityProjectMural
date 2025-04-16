@@ -27,7 +27,7 @@
 		</div>
 	</div>
 {:else}
-	<!-- SECOND -->
+	<!-- THIRD -->
 	<div class="py-5">
 		<div
 			class="mx-auto grid w-fit grid-cols-5 rounded-xl border border-zinc-800 bg-zinc-900 p-2 shadow-lg shadow-neutral-900 drop-shadow-md"
