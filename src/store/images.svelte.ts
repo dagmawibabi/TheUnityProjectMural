@@ -63,8 +63,9 @@ import r2art9 from '$lib/assets/rounds/round2/9.png';
 import r2art10 from '$lib/assets/rounds/round2/10.png'; 
 
 // ROUND 3
-import r3art1 from '$lib/assets/rounds/round3/1.png'; 
+import r3art1 from '$lib/assets/rounds/round3/1.png';
 import r3art3 from '$lib/assets/rounds/round3/3.png'; 
+import r3art5 from '$lib/assets/rounds/round3/5.png'; 
 import r3art7 from '$lib/assets/rounds/round3/7.png'; 
 import r3art9 from '$lib/assets/rounds/round3/9.png'; 
 import r3art11 from '$lib/assets/rounds/round3/11.png'; 
@@ -555,10 +556,9 @@ export const artList = $state({
 			position: '4'
 		},
 		{
-			image: '',
-			artist: '',
-			link: '',
-			position: '5'
+			image: r3art5,
+			artist: 'Mahlet Getinet',
+			link: 'duskwood_mg',
 		},
 		// 2 ROW
 		{
