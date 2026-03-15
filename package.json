@@ -4,7 +4,7 @@
 	"type": "module",
 	"packageManager": "pnpm@9.15.9",
 	"engines": {
-		"node": ">=20 <23"
+		"node": "20.x"
 	},
 	"scripts": {
 		"dev": "vite dev",
