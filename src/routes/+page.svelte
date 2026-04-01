@@ -1,5 +1,7 @@
 <script lang="ts">
 	import Homepage from './homepage/+page.svelte';
+
+	console.log("All this art, but you're the most beautiful! I rain you!")
 </script>
 
 <div

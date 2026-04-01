@@ -68,6 +68,7 @@ import r3art2 from '$lib/assets/rounds/round3/2.png';
 import r3art3 from '$lib/assets/rounds/round3/3.png';
 import r3art5 from '$lib/assets/rounds/round3/5.png';
 import r3art7 from '$lib/assets/rounds/round3/7.png';
+import r3art8 from '$lib/assets/rounds/round3/8.png';
 import r3art9 from '$lib/assets/rounds/round3/9.png';
 import r3art11 from '$lib/assets/rounds/round3/11.png';
 import r3art13 from '$lib/assets/rounds/round3/13.png';
@@ -572,10 +573,9 @@ export const artList = $state({
 			link: 'tommycube2.0'
 		},
 		{
-			image: '',
-			artist: '',
-			link: '',
-			position: '8'
+			image: r3art8,
+			artist: 'Natenael Ayelign',
+			link: 'nati_sponge'
 		},
 		{
 			image: r3art9,
