@@ -555,8 +555,7 @@ export const artList = $state({
 		{
 			image: r3art4,
 			artist: 'Zikra Abdusemed',
-      telegram: 'polymathica'
-			// site:
+			telegram: 'polymathica'
 		},
 		{
 			image: r3art5,
