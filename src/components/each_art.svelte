@@ -2,6 +2,9 @@
 	let { art, size } = $props();
 	import AlertDialogTitle from '$lib/components/ui/alert-dialog/alert-dialog-title.svelte';
 	import * as AlertDialog from '$lib/components/ui/alert-dialog/index.js';
+	import { getPrimaryArtistLink } from '$lib/utils';
+
+	const artistLink = $derived(getPrimaryArtistLink(art));
 </script>
 
 <AlertDialog.Root>
@@ -37,7 +40,7 @@
 				class="w-screen border-none bg-zinc-950 md:w-[700px] lg:w-[700px] xl:w-[700px] 2xl:w-[700px]"
 			>
 				<AlertDialogTitle class="text-emerald-500">
-					By {art.artist} — @{art.link}
+					By {art.artist}{#if artistLink.label} — {artistLink.label}{/if}
 				</AlertDialogTitle>
 				<AlertDialog.Header class="">
 					<AlertDialog.Description>
@@ -54,20 +57,24 @@
 
 				<AlertDialog.Footer class="gap-y-2">
 					<AlertDialog.Cancel class="border-none bg-zinc-900 text-white">Cancel</AlertDialog.Cancel>
-					<a href="/{art.link}" target="_blank" rel="noopener">
-						<AlertDialog.Action
-							class="w-full border border-emerald-700 text-emerald-500 hover:bg-emerald-500 hover:text-black"
-						>
-							Artist's Contributions
-						</AlertDialog.Action>
-					</a>
-					<a href="https://www.instagram.com/{art.link}" target="_blank" rel="noopener">
-						<AlertDialog.Action
-							class="w-full border border-emerald-700 text-emerald-500 hover:bg-emerald-500 hover:text-black"
-						>
-							Checkout The Artist
-						</AlertDialog.Action>
-					</a>
+					{#if artistLink.profileSlug}
+						<a href="/{artistLink.profileSlug}" target="_blank" rel="noopener">
+							<AlertDialog.Action
+								class="w-full border border-emerald-700 text-emerald-500 hover:bg-emerald-500 hover:text-black"
+							>
+								Artist's Contributions
+							</AlertDialog.Action>
+						</a>
+					{/if}
+					{#if artistLink.href}
+						<a href={artistLink.href} target="_blank" rel="noopener">
+							<AlertDialog.Action
+								class="w-full border border-emerald-700 text-emerald-500 hover:bg-emerald-500 hover:text-black"
+							>
+								Checkout The Artist
+							</AlertDialog.Action>
+						</a>
+					{/if}
 				</AlertDialog.Footer>
 			</AlertDialog.Content>
 

@@ -66,6 +66,7 @@ import r2art10 from '$lib/assets/rounds/round2/10.png';
 import r3art1 from '$lib/assets/rounds/round3/1.png';
 import r3art2 from '$lib/assets/rounds/round3/2.png';
 import r3art3 from '$lib/assets/rounds/round3/3.png';
+import r3art4 from '$lib/assets/rounds/round3/4.png';
 import r3art5 from '$lib/assets/rounds/round3/5.png';
 import r3art7 from '$lib/assets/rounds/round3/7.png';
 import r3art8 from '$lib/assets/rounds/round3/8.png';
@@ -79,6 +80,8 @@ import r3art23 from '$lib/assets/rounds/round3/23.png';
 import r3art24 from '$lib/assets/rounds/round3/24.png';
 import r3art25 from '$lib/assets/rounds/round3/25.png';
 
+// Socials: instagram, telegram, and/or site. First set field is used (instagram → telegram → site).
+// `link` still works as an Instagram username. Telegram/Instagram take a username only; site takes a URL or domain.
 export const artList = $state({
 	first: [
 		{
@@ -550,10 +553,10 @@ export const artList = $state({
 			link: 'tk_geremew'
 		},
 		{
-			image: '',
-			artist: '',
-			link: '',
-			position: '4'
+			image: r3art4,
+			artist: 'Zikra Abdusemed',
+      telegram: 'polymathica'
+			// site:
 		},
 		{
 			image: r3art5,

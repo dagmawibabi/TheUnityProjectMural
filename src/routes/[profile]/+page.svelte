@@ -9,6 +9,7 @@
 
 	import Contribute from '../../components/contribute.svelte';
 	import ArtistContributionGrid from '../../components/artist_contribution_grid.svelte';
+	import { artMatchesArtist, getPrimaryArtistLink } from '$lib/utils';
 	let artistUsername = $page.url.toString().split('/')[3];
 
 	let firstContributions: any[] = [];
@@ -16,22 +17,27 @@
 	let thirdContributions: any[] = [];
 	function findContributions() {
 		artList.first.forEach((art) => {
-			if (art.link == artistUsername) {
+			if (artMatchesArtist(art, artistUsername)) {
 				firstContributions.push(art);
 			}
 		});
 		artList.second.forEach((art) => {
-			if (art.link == artistUsername) {
+			if (artMatchesArtist(art, artistUsername)) {
 				secondContributions.push(art);
 			}
 		});
 		artList.third.forEach((art) => {
-			if (art.link == artistUsername) {
+			if (artMatchesArtist(art, artistUsername)) {
 				thirdContributions.push(art);
 			}
 		});
 	}
 	findContributions();
+
+	const artistLink = getPrimaryArtistLink(
+		firstContributions[0] ?? secondContributions[0] ?? thirdContributions[0] ?? {}
+	);
+	const displayName = artistLink.label || `@${artistUsername}`;
 </script>
 
 <div class="h-screen w-screen overflow-scroll">
@@ -43,14 +49,18 @@
 			class="mx-auto text-lg font-bold text-emerald-500 md:text-4xl lg:text-4xl xl:text-4xl 2xl:text-4xl"
 		>
 			Contributions of
-			<a
-				href="https://www.instagram.com/{artistUsername}"
-				class="border-b border-dashed border-emerald-800 underline-offset-8 hover:underline"
-				target="_blank"
-				rel="noopener"
-			>
-				@{artistUsername}
-			</a>
+			{#if artistLink.href}
+				<a
+					href={artistLink.href}
+					class="border-b border-dashed border-emerald-800 underline-offset-8 hover:underline"
+					target="_blank"
+					rel="noopener"
+				>
+					{displayName}
+				</a>
+			{:else}
+				{displayName}
+			{/if}
 		</div>
 
 		<div class="px-4 py-4">
@@ -59,14 +69,18 @@
 			>
 				Here are the contributions of
 
-				<a
-					href="https://www.instagram.com/{artistUsername}"
-					class="text-emerald-500 underline-offset-8 hover:underline"
-					target="_blank"
-					rel="noopener"
-				>
-					@{artistUsername}
-				</a>
+				{#if artistLink.href}
+					<a
+						href={artistLink.href}
+						class="text-emerald-500 underline-offset-8 hover:underline"
+						target="_blank"
+						rel="noopener"
+					>
+						{displayName}
+					</a>
+				{:else}
+					{displayName}
+				{/if}
 				to the Ethiopian Artists Theme, Christian Cross Theme, and in the upcoming Third Theme. The number
 				in the circle shows the amount of artpieces contributed.
 			</p>

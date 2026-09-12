@@ -1,6 +1,7 @@
 <script lang="ts">
 	import ArtistContributionArt from './artist_contribution_art.svelte';
 	import ArtistContributionThemeTitle from './artist_contribution_theme_title.svelte';
+	import { artMatchesArtist } from '$lib/utils';
 	let { theme, contributions, artistUsername } = $props();
 </script>
 
@@ -10,7 +11,7 @@
 		class="mx-auto grid w-fit grid-cols-1 grid-rows-none gap-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3"
 	>
 		{#each contributions as art}
-			{#if art.link == artistUsername}
+			{#if artMatchesArtist(art, artistUsername)}
 				<ArtistContributionArt {art} />
 			{/if}
 		{/each}
