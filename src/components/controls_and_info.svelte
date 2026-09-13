@@ -1,33 +1,29 @@
 <script lang="ts">
-	import axios from 'axios';
+	import { onMount } from 'svelte';
 	import { artList } from '../store/images.svelte';
 	import { sharedState } from '../store/shared_state.svelte';
 	import MobileArtGridSwitch from './mobile_art_grid_switch.svelte';
 	import Rounds from './rounds.svelte';
 
-	// Get and Set Visitor Count
-	let visitorCount = $state(0);
-	let LOGLIB_API_KEY = 'site_aphajoa4ij';
-	async function getVisitorCount() {
-		const currentDate = new Date();
-		const year = currentDate.getFullYear();
-		let month = String(currentDate.getMonth() + 1).padStart(2, '0');
-		let day = String(currentDate.getDate()).padStart(2, '0');
+	const FALLBACK_VISITORS = 11038;
+	let visitorCount = $state(FALLBACK_VISITORS);
 
-		const formattedDate = `${year}-${month}-${day}`;
-		let visitorCountResult;
+	async function readVisitorCount(method: 'GET' | 'POST') {
 		try {
-			visitorCountResult = await axios({
-				method: 'get',
-				url: `https://api.loglib.io/v1/insight?apiKey=${LOGLIB_API_KEY}&startDate=2023-08-10&endDate=${formattedDate}&timeZone=Africa/Addis_Ababa`,
-				withCredentials: false
-			});
-			visitorCount = 11038 + visitorCountResult.data.insight.totalPageViews.current;
-		} catch (error) {
-			visitorCountResult = 11038;
+			const res = await fetch('/api/visitors', { method });
+			if (!res.ok) return;
+			const data = (await res.json()) as { count?: number };
+			if (typeof data.count === 'number') visitorCount = data.count;
+		} catch {
+			// Keep the last known count on the page.
 		}
 	}
-	getVisitorCount();
+
+	onMount(() => {
+		readVisitorCount('POST');
+		const interval = setInterval(() => readVisitorCount('GET'), 30000);
+		return () => clearInterval(interval);
+	});
 </script>
 
 <div>
@@ -75,7 +71,7 @@
 		<div
 			class="flex items-center justify-center rounded-full border-emerald-800 px-5 font-semibold uppercase text-emerald-600 md:border lg:border xl:border 2xl:border"
 		>
-			<span class="pr-1 text-emerald-500">{visitorCount == 0 ? '11038' : visitorCount}</span> art lovers have been here
+			<span class="pr-1 text-emerald-500">{visitorCount}</span> art lovers have been here
 		</div>
 	</div>
 </div>

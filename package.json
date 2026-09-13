@@ -43,6 +43,8 @@
 		"@loglib/tracker": "^0.8.0",
 		"@tailwindcss/typography": "^0.5.15",
 		"axios": "^1.7.9",
-		"lucide-svelte": "^0.469.0"
+		"lucide-svelte": "^0.469.0",
+		"mongodb": "^7.6.0",
+		"three": "^0.186.0"
 	}
 }
