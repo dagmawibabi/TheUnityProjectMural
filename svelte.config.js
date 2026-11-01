@@ -1,4 +1,5 @@
-import adapter from '@sveltejs/adapter-vercel';
+import cloudflare from '@sveltejs/adapter-cloudflare';
+import vercel from '@sveltejs/adapter-vercel';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -8,9 +9,8 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: adapter({
-			runtime: 'nodejs20.x'
-		})
+		// Vercel sets VERCEL during its builds; everywhere else builds for Cloudflare.
+		adapter: process.env.VERCEL ? vercel({ runtime: 'nodejs20.x' }) : cloudflare()
 	}
 };
 
